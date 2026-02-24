@@ -42,8 +42,6 @@ def calc_other_agg_AA(percent_other_I, sg_other_P, total_agg_vol_X):
     calc_fine_agg_Y = 62.4 * (percent_other_I/100) * sg_other_P * total_agg_vol_X
     return calc_fine_agg_Y
 
-
-
 project_no = int(input("Enter project number: ")) 
 concrete_class = input("Enter class of concrete: ")
 cement_weight_A = float(input("Enter Cement Weight A in lb/yd^3: "))
